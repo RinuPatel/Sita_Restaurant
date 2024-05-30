@@ -17,7 +17,7 @@ export default function Navber() {
                                 <Link class="nav-link text-white active " aria-current="page" to="/" >Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link txt-color" to="#">about</Link>
+                                <Link class="nav-link txt-color" to="/about">about</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link txt-color" to="#">chef</Link>

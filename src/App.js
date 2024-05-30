@@ -6,6 +6,7 @@ import Navber from './Components/Layout/Navber'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import About from './Page/About';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -19,6 +20,7 @@ function App() {
         <Navber />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About/>} />
         </Routes>
 
       </BrowserRouter>
